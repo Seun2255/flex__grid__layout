@@ -81,3 +81,90 @@
   border-radius: 50vh;
   cursor: pointer;
 }
+
+@media screen and (max-width: 375px) {
+  .body {
+    display: flex;
+    width: 100vw;
+    margin: 0%;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+
+  .container {
+    width: 90%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .left-box {
+    background-color: hsl(31, 77%, 52%);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center-box {
+    background-color: hsl(184, 100%, 22%);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-box {
+    background-color: hsl(179, 100%, 13%);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inner-box {
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .vehicle-image {
+    width: 30%;
+    height: 2em;
+  }
+
+  .vehicle-name {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  .advert {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.2em;
+    margin-top: 0%;
+    margin-bottom: 28px;
+  }
+
+  .button {
+    width: 60%;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50vh;
+    cursor: pointer;
+  }
+}
